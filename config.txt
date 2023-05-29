@@ -1,0 +1,41 @@
+###########################
+## RETROSEMP CONFIG FILE ##
+###########################
+
+[GENERAL]
+# Run Mode - (I2C runs with I2C Bus Read, TEST runs with user input )
+runMode = I2C
+
+# Bus Address
+busAddress = 4
+busI2C = 1
+
+# Local MPD
+mpdHost = localhost
+mpdPort = 6600
+
+# Sound Card Limits (PCM)
+sndLimitLow = -5000
+sndLimitHigh = 350
+
+# Station Control
+dialWidth = 150
+stationWidth = 10 
+staticWidth = 5
+fadeWidth = 5
+dialPosition = 0
+
+[MPD]
+cTimeout = 10
+cIdletimeout = None
+tune01 = rock
+tune02 = blues
+tune03 = country
+tune04 = classic
+server01_address = "192.168.25.165"
+server01_port = 6600
+
+[ARDUINO]
+sDist=50
+sWidth=50
+sTotalWidth=500
